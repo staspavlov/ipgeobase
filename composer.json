@@ -1,0 +1,26 @@
+{
+    "name": "psp/ipgeobase",
+    "type": "library",
+    "description": "Client for ipgeobase.ru geolocation webservice",
+    "keywords": ["geolocation", "ipgeobase"],
+    "homepage": "https://github.com/staspavlov/ipgeobase",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Pavlov",
+            "email": "mail@staspavlov.com",
+            "homepage": "http://staspavlov.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": { "PSP\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": {"PSP\\": "tests"}
+    }
+}
